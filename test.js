@@ -18,5 +18,6 @@ $(".btnlist").on("click", function() {
 	$(function() {
 		$('header').click(function() {
 			$('.header-right').fadeIn();
+		});	
 	});
 });
