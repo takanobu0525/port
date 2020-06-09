@@ -18,10 +18,5 @@ $(".btnlist").on("click", function() {
 	$(function() {
 		$('header').click(function() {
 			$('.header-right').fadeIn();
-		});
-		$('.close-modal').click(function() {
-			$('#login-modal').fadeOut();
-			$('#signup-modal').fadeOut();
-		});
 	});
 });
