@@ -1,13 +1,13 @@
 $(function(){
 	setTimeout(function(){
 		$('.top h1').slideDown(1500);
-	},2500);
+	},3500);
 	setTimeout(function(){
 		$('.top p').fadeIn(1500);
-	},1000);
+	},2000);
 	setTimeout(function(){
 		$('body').fadeIn(1000);
-	},0);
+	},1000);
 	
 $(".btnlist").on("click", function() {
 	const scrollTarget = $(this)[0].attributes[1].nodeValue;
